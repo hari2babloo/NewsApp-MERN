@@ -15,7 +15,7 @@ const Signin = () => {
         password,
       })
       .then((res) => {
-        // handle success
+        // handle success2
         console.log(res.data);
         if (res.data === "Success") {
           navigate("/news");
